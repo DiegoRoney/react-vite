@@ -1,5 +1,6 @@
 import { Barra } from "./components/barra"
 import { Header } from "./components/header"
+import { HeaderPrincipal } from "./components/headerPrincipal"
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Barra />
       <Header />
+      <HeaderPrincipal/>
       
     </div>
   )  
