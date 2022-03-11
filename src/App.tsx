@@ -6,8 +6,9 @@ function App() {
  
   return (
     <div>
-      <Header />
       <Barra />
+      <Header />
+      
     </div>
   )  
    
