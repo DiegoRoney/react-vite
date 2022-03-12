@@ -1,7 +1,10 @@
 export function HeaderPrincipal() {
     return (
-     <p>uma imagem aqui</p>
-     
+        <div>
+            <p>uma imagem aqui</p>
+            <img src="" alt="img" />
+            <button>teste</button>
+        </div>
       
      );
   }

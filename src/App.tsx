@@ -1,4 +1,5 @@
 import { Barra } from "./components/barra"
+import { Footer } from "./components/footer"
 import { Header } from "./components/header"
 import { HeaderPrincipal } from "./components/headerPrincipal"
 
@@ -10,6 +11,7 @@ function App() {
       <Barra />
       <Header />
       <HeaderPrincipal/>
+      <Footer/>
       
     </div>
   )  
