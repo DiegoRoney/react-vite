@@ -1,9 +1,9 @@
 import { useState } from "react"
 import { Barra } from "./components/barra"
-// import { Footer } from "./components/footer"
+import { Footer } from "./components/footer"
 import { Header } from "./components/header"
 import { Msg } from "./components/msg"
-//import { HeaderPrincipal } from "./components/headerPrincipal"
+import { HeaderPrincipal } from "./components/headerPrincipal"
 
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
     'mensagem 2',
     'mensagem 3',
     'mensagem 4',
+    'mensagem 5',
   ])
 
     function createMsg() {
@@ -22,13 +23,14 @@ function App() {
   return (
     <div>
       <Barra />
-      <Header />
-      {/* <HeaderPrincipal/> */}
-      {/* <Footer/> */}
+      <Header />    
+      { <HeaderPrincipal/> }
+      { <Footer/> }
       
       {msg.map(msg => {
         return <Msg text={msg} />
       })}
+      
 
 
       <button onClick={createMsg} > adicionar mensagem</button>
