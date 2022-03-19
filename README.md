@@ -1,4 +1,4 @@
 # react-vite
-TIME: 24.16
+TIME: 25.56
  
 --> yarn dev 
