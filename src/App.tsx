@@ -4,7 +4,7 @@ import { Footer } from "./components/footer"
 import { Header } from "./components/header"
 import { Msg } from "./components/msg"
 import { HeaderPrincipal } from "./components/headerPrincipal"
-
+import { AppRoutes } from "./routes"
 import './App.css';
 
 function App() {
@@ -20,35 +20,42 @@ function App() {
       }
  
   return (
-    <div>
-      <Barra />
-      <Header />    
-      <HeaderPrincipal/> 
-      
-      
-      {msg.map(msg => {
-        return <Msg text={msg} />
-      })}
-      
-      <button
-       onClick={createMsg}
-       style={{
-          marginTop: '20px',
-          backgroundColor: '#f00',
-          border: 'none',
-          padding: '10px 15px',
-          borderRadius: '4px',
-          color: '#FFF',
-       }}
-      > 
-      Adicionar mensagem
-      </button>
 
-
-      <Footer/> 
-    </div>
-  )  
+    <AppRoutes />
+ 
+  );
    
 }
 
 export default App
+
+
+
+   // <div>
+    //   {/* <Barra />
+    //   <Header />    
+    //   <HeaderPrincipal/>   
+        
+    //   <Footer/>  */}
+
+
+
+    //   {/* {msg.map(msg => {
+    //     return <Msg text={msg} />
+    //   })}
+      
+    //   <button
+    //    onClick={createMsg}
+    //    style={{
+    //       marginTop: '20px',
+    //       backgroundColor: '#f00',
+    //       border: 'none',
+    //       padding: '10px 15px',
+    //       borderRadius: '4px',
+    //       color: '#FFF',
+    //    }}
+    //   > 
+    //   Adicionar mensagem
+    //   </button> */}
+
+    // </div>

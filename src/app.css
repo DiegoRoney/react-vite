@@ -1,13 +1,6 @@
 body{
     background: #5900ff;
-    color: #fff;
+    color: rgb(255, 0, 212);
+    font-family: 'Courier New', Courier, monospace;
 }
 
-/* button{
-    background: #fff;
-    color: #5900ff;
-    border: 1px solid #5900ff;
-    padding: 10px;
-    border-radius: 5px;
-    margin-top: 10px;
-} */
